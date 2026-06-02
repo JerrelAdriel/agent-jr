@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agent-JR - AI Asisten</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="header-avatar">JR</div>
+      <div class="header-info">
+        <h1>Agent-JR</h1>
+        <span class="status">Online</span>
+      </div>
+      <button class="clear-btn" onclick="clearChat()">Bersihkan</button>
+    </header>
+
+    <div class="chat-container" id="chatContainer">
+      <div class="welcome">
+        <div class="welcome-avatar">JR</div>
+        <h2>Hei! Aku Agent-JR 👋</h2>
+        <p>Asisten AI pribadi kamu. Tanya apa aja, aku siap bantu!</p>
+      </div>
+    </div>
+
+    <div class="input-area">
+      <textarea
+        id="inputBox"
+        placeholder="Ketik pesanmu di sini..."
+        rows="1"
+        onkeydown="handleKey(event)"
+        oninput="autoResize(this)"
+      ></textarea>
+      <button class="send-btn" id="sendBtn" onclick="sendMessage()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="22" y1="2" x2="11" y2="13"></line>
+          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
