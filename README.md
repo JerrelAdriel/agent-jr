@@ -82,4 +82,6 @@ my-ai/
 
 ---
 
-Built with ❤️ in Indonesia
+📚 **Full documentation** untuk semua project saya tersedia di [Portfolio Documentation](https://github.com/JerrelAdriel/JerrelAdriel.github.io/blob/main/DOCUMENTATION.md).
+
+Built with ❤️ in Jakarta · © 2026
